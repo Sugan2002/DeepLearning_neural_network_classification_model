@@ -39,12 +39,15 @@ You are required to help the manager to predict the right group of the new custo
       
 ### STEP 6:
       The Sequential model is then build using 1 input layer, 3 dense layers(hidden) and, output layer.
+<br>
+<br>
+<br>
+<br>
 
 ### STEP 7:
-      The model is then complied and trained with the data. A call back method is also implemented to prevent the model from 
-      overfitting.
+      The model is then complied and trained with the data. A call back method is also implemented to prevent the model from overfitting.
       
-### STEP 3:
+### STEP 8:
       Once the model is done training, we validate and use the model to predict values.
 
 ## PROGRAM
