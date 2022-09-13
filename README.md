@@ -22,23 +22,23 @@ You are required to help the manager to predict the right group of the new custo
 ## DESIGN STEPS
 
 ### STEP 1:
-      We start by reading the dataset using pandas.
+We start by reading the dataset using pandas.
 
 ### STEP 2:
-      The dataset is then preprocessed, i.e, we remove the features that don't contribute towards the result.
+The dataset is then preprocessed, i.e, we remove the features that don't contribute towards the result.
 
 ### STEP 3:
-      The null values are removed aswell.
+The null values are removed aswell.
       
 ### STEP 4:
-      The resulting data values are then encoded. We, ensure that all the features are of the type int, or float, 
+The resulting data values are then encoded. We, ensure that all the features are of the type int, or float, 
       for the model to better process the dataset.
 
 ### STEP 5:
-      Once the preprocessing is done, we split the available data into Training and Validation datasets.
+ Once the preprocessing is done, we split the available data into Training and Validation datasets.
       
 ### STEP 6:
-      The Sequential model is then build using 1 input layer, 3 dense layers(hidden) and, output layer.
+ The Sequential model is then build using 1 input layer, 3 dense layers(hidden) and, output layer.
 <br>
 <br>
 <br>
@@ -53,6 +53,8 @@ You are required to help the manager to predict the right group of the new custo
 ## PROGRAM
 
 ```python
+# Developed By: P Suganya
+# Register Number:212220230049
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.models import Sequential
@@ -215,8 +217,8 @@ print(le.inverse_transform(x_single_prediction))
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
+![189541738-7db9ce2e-d544-4fd5-86b5-922ab0a4dd3d](https://user-images.githubusercontent.com/77089743/189858356-2d60cb9f-0a13-491f-bcc8-96ddd58fef87.png)
 
-![Screenshot 2022-09-11 233406](https://user-images.githubusercontent.com/77089743/189542438-6a986f09-e6e5-4d56-a824-01c16d6b8781.png)
 
 ### Classification Report
 
