@@ -1,23 +1,16 @@
-# Developing a Neural Network Classification Model
-
+### Exp No: 02
+### Date: 11.09.2022
+# <p align="center">Developing a Neural Network Classification Model</p>
 ## AIM
-
 To develop a neural network classification model for the given dataset.
-
 ## Problem Statement
-
 An automobile company has plans to enter new markets with their existing products. After intensive market research, they’ve decided that the behavior of the new market is similar to their existing market.
-
-In their existing market, the sales team has classified all customers into 4 segments (A, B, C, D ). Then, they performed segmented outreach and communication for a different segment of customers. This strategy has work exceptionally well for them. They plan to use the same strategy for the new markets.
-
-You are required to help the manager to predict the right group of the new customers.
-
+          In their existing market, the sales team has classified all customers into 4 segments (A, B, C, D ). Then, they performed segmented outreach and communication for a different segment of customers. This strategy has work exceptionally well for them. They plan to use the same strategy for the new markets.
+          You are required to help the manager to predict the right group of the new customers.
 ## Neural Network Model
+![1__lqiFBTqoskOWZ72FrXr3Q](https://user-images.githubusercontent.com/77089743/203842114-23ed97cc-cb70-45af-823d-99a863253881.jpeg)
 
-
-![nn_model](https://user-images.githubusercontent.com/77089743/189541792-560402aa-7860-4eb5-8fea-58b6923cff34.png)
-
-
+<br><br>
 
 ## DESIGN STEPS
 
@@ -32,23 +25,19 @@ The null values are removed aswell.
       
 ### STEP 4:
 The resulting data values are then encoded. We, ensure that all the features are of the type int, or float, 
-      for the model to better process the dataset.
+for the model to better process the dataset.
 
 ### STEP 5:
- Once the preprocessing is done, we split the available data into Training and Validation datasets.
+Once the preprocessing is done, we split the available data into Training and Validation datasets.
       
 ### STEP 6:
- The Sequential model is then build using 1 input layer, 3 dense layers(hidden) and, output layer.
-<br>
-<br>
-<br>
-<br>
+The Sequential model is then build using 1 input layer, 3 dense layers(hidden) and, output layer.
 
 ### STEP 7:
-      The model is then complied and trained with the data. A call back method is also implemented to prevent the model from overfitting.
+The model is then complied and trained with the data. A call back method is also implemented to prevent the model from overfitting.
       
 ### STEP 8:
-      Once the model is done training, we validate and use the model to predict values.
+Once the model is done training, we validate and use the model to predict values.
 
 ## PROGRAM
 
@@ -208,6 +197,15 @@ x_single_prediction = np.argmax(ai_brain.predict(X_test_scaled[1:2,:]), axis=1)
 print(x_single_prediction)
 print(le.inverse_transform(x_single_prediction))
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Dataset Information
 
@@ -219,11 +217,19 @@ print(le.inverse_transform(x_single_prediction))
 ### Training Loss, Validation Loss Vs Iteration Plot
 ![189541738-7db9ce2e-d544-4fd5-86b5-922ab0a4dd3d](https://user-images.githubusercontent.com/77089743/189858356-2d60cb9f-0a13-491f-bcc8-96ddd58fef87.png)
 
-
 ### Classification Report
 
 ![Screenshot 2022-09-11 233544](https://user-images.githubusercontent.com/77089743/189542453-24a0923a-5d4d-48c9-9833-e922295b0742.png)
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ### Confusion Matrix
 
