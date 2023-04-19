@@ -1,6 +1,6 @@
 ### Exp No: 02
 ### Date: 11.09.2022
-# <p align="center">Developing a Neural Network Classification Model</p>
+# <p align="center">Developing a Neural Network Classification Model for customer segmentation</p>
 ## AIM
 To develop a neural network classification model for the given dataset.
 ## Problem Statement
